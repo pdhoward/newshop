@@ -12,7 +12,6 @@ import CreateAgent              from './pages/CreateAgent'
 import Demo                     from './pages/Demo'
 import ListAgents               from './pages/ListAgents'
 import ListClients              from './pages/ListClients'
-import ShoppingCart             from './pages/ShoppingCart'
 import NoMatch                  from './pages/NoMatch'
 import Nav                      from "./components/Nav"
 import Footer                   from "./components/Footer"
