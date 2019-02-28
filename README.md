@@ -13,7 +13,7 @@ Getting the app running on your local machine takes only a few steps:
 2. rename configEX directories (configuration example) to config. One directory is found in the root and the other in client directory. No other updates are needed if the project is run locally
 3. install its dependencies - `npm install`
 4. start mongodb on your localhost (mongod ...)
-5. start the app - npm run start
+5. start the app - npm run start (or yarn start)
 
 Configurations can be set for mlab or a local mongo db.
 See server.js to modify connections api to mongodb
