@@ -22,6 +22,14 @@ See server.js to modify connections api to mongodb
 
 Note that a backend server is used strictly for prototyping. Not commercial ready
 
+## Refactoring Instructions
+
+This activity is designed to for a junior developer stepping through a refactoring activity on an app
+
+The scope of this task is to integrate a shopping cart with newshop. The MERN shop is functional for displaying and adding new bots, that are for sale to businesses looking for conversational agents. A shopping cart is needed so that customers can select their bot. In the future, and payments app will also be added to accept credit cards for the subscription service
+
+
+
 ## License and Use
  [LICENSE](LICENSE.txt).
 
