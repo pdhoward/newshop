@@ -66,13 +66,6 @@ class App extends Component {
 
   }
 
-  addCart = (contact) => { 
-      this.setState( (state) => ({
-        cart: state.cart.push( contact )
-      }) )
-    }
-  
-
   componentDidMount() {
         ContactsAPI.getAll().then((agents) => {
           this.setState({ agents })
@@ -95,10 +88,7 @@ class App extends Component {
             contacts={this.state.clients}/> } />
           <Route exact path="/create" 
             render={(props) => <CreateAgent {...props}  onCreateAgent = { this.createAgent }
-            contacts={this.state.agents}/> } />
-          <Route exact path="/cart" 
-            render={(props) => <ShoppingCart {...props}  onAddCart = { this.addCart }
-            products={this.state.agents}/> } />
+            contacts={this.state.agents}/> } />         
           <Route exact path="/about" component={About} />  
           <Route exact path="/demo" component={Demo} />         
           <Route component={NoMatch} />

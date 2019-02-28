@@ -75,16 +75,7 @@ class Nav extends Component {
               >
                 Add Bot
               </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                onClick={this.toggleNav}
-                className={window.location.pathname === "/cart" ? "nav-link active" : "nav-link"}
-                to="/cart"
-              >
-                Shopping Cart
-              </Link>              
-            </li>
+            </li>            
             <li className="nav-item">
               <Link
                 onClick={this.toggleNav}
